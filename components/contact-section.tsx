@@ -11,13 +11,12 @@ import {
   Phone,
   Mail,
   Clock,
-  Share2,
   Facebook,
   Instagram,
 } from "lucide-react";
-import Link from "next/link";
 
 export function ContactSection() {
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -34,8 +33,7 @@ export function ContactSection() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Aquí iría la lógica para enviar el formulario
-    console.log("Formulario enviado:", formData);
+
     alert(
       "Gracias por contactarnos. Nos pondremos en contacto contigo pronto."
     );

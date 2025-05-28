@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: 'Optica Ortuno',
   description: 'Especialistas en lentes multifocales digitales',
   generator: 'Next.js',
+    icons: {
+    icon: '/favicon.ico',
+  },
 }
 
 export default function RootLayout({

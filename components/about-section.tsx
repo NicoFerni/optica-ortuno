@@ -16,7 +16,7 @@ export function AboutSection() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="relative h-[400px] rounded-lg overflow-hidden">
             <Image
-              src="/placeholder.svg?height=800&width=600"
+              src="/optica.jpeg"
               alt="Equipo de Optica Ortuño"
               fill
               className="object-cover"
