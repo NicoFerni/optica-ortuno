@@ -81,52 +81,6 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="font-bold text-white mb-4">Servicios</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link
-                  href="#"
-                  className="hover:text-teal-500 transition-colors"
-                >
-                  Examen Visual
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="#"
-                  className="hover:text-teal-500 transition-colors"
-                >
-                  Gafas Graduadas
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="#"
-                  className="hover:text-teal-500 transition-colors"
-                >
-                  Gafas de Sol
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="#"
-                  className="hover:text-teal-500 transition-colors"
-                >
-                  Lentes de Contacto
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="#"
-                  className="hover:text-teal-500 transition-colors"
-                >
-                  Salud Ocular
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          <div>
             <h3 className="font-bold text-white mb-4">Contacto</h3>
             <address className="not-italic space-y-2 text-sm">
               <p>Fitz Roy 72</p>
